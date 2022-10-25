@@ -1,0 +1,8 @@
+instale bison con el comando: sudo apt install bison
+				sudo apt install graphviz
+contruya un archivo de extensión .y siguiendo la sintaxis para el formato de gramaticas
+procese el archivo gramatica.y con el comando: bison --graph gramatica.y
+procese el archivo .dot con el comando: dot gramatica.dot -Tpng >> gramatica.png
+
+
+
